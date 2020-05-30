@@ -1,0 +1,6 @@
+pygame
+cmake
+dlib
+imutils
+numpy
+opencv-python
