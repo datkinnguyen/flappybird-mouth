@@ -18,7 +18,7 @@ MAR_CONSECUTIVE_FRAMES = 3  # Number of consecutive frames the mouth must be abo
 
 # UI Configurations
 FONT = cv2.FONT_HERSHEY_SIMPLEX
-PREVIEW_TEXT_COLOUR = (0, 0, 255)
+PREVIEW_TEXT_COLOUR = (0, 255, 255)
 PREVIEW_MOUTH_COLOUR = (0, 255, 0)
 GAME_SCORE_TEXT_COLOUR = (255, 255, 255)
 GAME_BG_COLOUR = (212, 182, 115)
@@ -198,7 +198,6 @@ class FlappyBird:
 
 			# Show the camera image with mouth shape detected to a window
 			cv2.imshow("Flappy Bird", frame)
-
 			clock.tick(60)
 
 			# Draw background and walls (pipes)
