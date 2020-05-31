@@ -143,7 +143,8 @@ class FlappyBird:
 		pygame.font.init()
 		game_font = pygame.font.SysFont("Arial", 50)
 
-		while True:
+		game_over = False
+		while not game_over:
 			# Capture the frame from the threaded video stream, resize it & convert it to grayscale
 			frame = vs.read()
 			# Resize image smaller for easier processing
@@ -231,7 +232,11 @@ class FlappyBird:
 			# Listen to key event, and quit game if user pressed "q"
 			key = cv2.waitKey(1) & 0xFF
 			if key == ord('q'):
-				break
+				game_over = True
+
+			for event in pygame.event.get():
+				if event.type == pygame.QUIT:
+					game_over = True
 
 		# End Game loop, clean up resources
 		cv2.destroyAllWindows()
