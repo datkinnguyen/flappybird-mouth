@@ -20,6 +20,12 @@ Usage:<br/>
 - First run command below to install dependencies
 `pip install -r requirements.txt`
 
+- If installing `dlib` or `cmake` dependencies has problem, please refer to the official documentation of the toolkits:
+    
+    - For Cmake: download and install Cmake from https://cmake.org/download/
+    - For dlib: https://github.com/davisking/dlib or follow http://dlib.net/compile.html for guidelines on how to compile
+
+
 - Run the file main.py in the terminal 
 `python main.py`
 or run file main.py from any python IDE.
