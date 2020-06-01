@@ -110,7 +110,7 @@ class FlappyBird:
 		else:
 			self.birdY += self.gravity
 			self.gravity += 0.15
-		self.bird[1] = self.birdY
+		self.bird[1] = int(self.birdY)
 		wall_up_react = pygame.Rect(self.wallx, 360 + self.gap - self.offset + 10, self.wallUp.get_width() - 10,
 									self.wallUp.get_height())
 		wall_down_react = pygame.Rect(self.wallx, 0 - self.gap - self.offset - 10, self.wallDown.get_width() - 10,
@@ -215,7 +215,7 @@ class FlappyBird:
 				self.sprite = 2
 			elif self.jump:
 				self.sprite = 1
-			self.screen.blit(self.birdSprites[self.sprite], (BIRD_X, self.birdY))
+			self.screen.blit(self.birdSprites[self.sprite], (BIRD_X, int(self.birdY)))
 
 			if not self.dead:
 				self.sprite = 0

@@ -17,8 +17,11 @@ alt="FlappyMouth" width="480" height="320" border="10" /></a>
 <br/>
 Usage:<br/>
 
-- First run command below to install dependencies
-`pip install -r requirements.txt`
+- First run command below to install dependencies. 
+    - If you are using python 3.7, run command:
+    `pip install -r requirements-3.7.txt`
+    - If you are using python 3.8, run command:
+    `pip install -r requirements-3.8.txt`
 
 - If installing `dlib` or `cmake` dependencies has problem, please refer to the official documentation of the toolkits:
     

@@ -1,0 +1,7 @@
+certifi==2020.4.5.1
+cmake==3.17.2
+dlib==19.19.0
+imutils==0.5.3
+numpy==1.18.4
+opencv-python==4.2.0.34
+pygame==2.0.0.dev6

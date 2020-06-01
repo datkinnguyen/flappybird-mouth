@@ -1,0 +1,13 @@
+appdirs==1.4.4
+certifi==2020.4.5.1
+cmake==3.17.2
+distlib==0.3.0
+dlib==19.19.0
+imutils==0.5.3
+numpy==1.18.4
+opencv-python==4.2.0.34
+pipenv==2020.5.28
+pygame==1.9.6
+smop==0.41b0
+virtualenv==20.0.21
+virtualenv-clone==0.5.4
