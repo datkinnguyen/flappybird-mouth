@@ -1,5 +1,5 @@
 appdirs==1.4.4
-certifi==2020.4.5.1
+certifi==2022.12.7
 cmake==3.17.2
 distlib==0.3.0
 dlib==19.19.0
